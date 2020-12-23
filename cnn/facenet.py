@@ -21,7 +21,7 @@ mtcnn = MTCNN(
     factor=0.709,
     post_process=True,
     device=device,
-    #keep_all=True # return all detected faces
+    # keep_all=True # return all detected faces
 )
 
 # Define inception resnet module
@@ -29,12 +29,15 @@ mtcnn = MTCNN(
 resnet = InceptionResnetV1(pretrained='vggface2').eval().to(device)
 
 # Define dataset and data loader
+
+
 def collate_fn(x):
     return x[0]
 
+
 dataset = datasets.ImageFolder('../images')
 # Add idx_to_class attribute to enable easy recording of label indices
-dataset.idx_to_class = {i:c for c, i in dataset.class_to_idx.items()}
+dataset.idx_to_class = {i: c for c, i in dataset.class_to_idx.items()}
 loader = DataLoader(dataset, collate_fn=collate_fn, num_workers=workers)
 
 # Perform MTCNN facial detection

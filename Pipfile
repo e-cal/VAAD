@@ -9,6 +9,7 @@ torch = "*"
 torchvision = "*"
 facenet-pytorch = "*"
 pandas = "*"
+opencv-python = "*"
 
 [dev-packages]
 

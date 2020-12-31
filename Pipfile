@@ -10,6 +10,16 @@ torchvision = "*"
 facenet-pytorch = "*"
 pandas = "*"
 opencv-python = "*"
+setuptools = "*"
+wheel = "*"
+google-assistant-grpc = "*"
+google-auth-oauthlib = "*"
+urllib3 = {extras = ["secure"], version = "*"}
+sounddevice = "*"
+click = "*"
+tenacity = "*"
+futures = "*"
+pathlib = "*"
 
 [dev-packages]
 

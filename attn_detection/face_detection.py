@@ -9,9 +9,8 @@ class FaceDetector(object):
         self.mtcnn = mtcnn
 
     def overlay(self, frame, boxes, probs):
-        print(f"boxes: {boxes}\tprobs: {probs}")
+        print(f"boxes: {boxes}\nprobs: {probs}\n")
         for box, prob in zip(boxes, probs):
-            print("here")
             cv2.rectangle(frame,
                           (box[0], box[1]),
                           (box[2], box[3]),

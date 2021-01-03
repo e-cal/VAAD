@@ -36,7 +36,7 @@ class FaceDetector(object):
             ret, frame = video.read()
             box, prob, ld = self.mtcnn.detect(frame, landmarks=True)
             if not type(box) == type(None):
-                print(f"box: {box}\nprobs: {prob}\n")
+                print(f"facebox: {box}\nprob: {prob[0]}\n")
                 self.overlay(frame, box, prob)
             else:
                 print("No face detected")
@@ -49,9 +49,9 @@ class FaceDetector(object):
 
 if __name__ == "__main__":
     detector = FaceDetector()
+    detector.run()
     try:
         box, prob, ld = detector.detect()
         print(f"face detected with {(prob[0] * 100):.2f}% certainty")
     except:
         print("No face detected")
-    detector.run()

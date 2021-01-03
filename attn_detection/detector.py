@@ -51,8 +51,8 @@ class FaceDetector(object):
 if __name__ == "__main__":
     detector = FaceDetector()
     detector.run()
-    try:
-        box, prob, ld = detector.detect()
-        print(f"face detected with {(prob[0] * 100):.2f}% certainty")
-    except:
+    prob = detector.detect()
+    if prob == None:
         print("No face detected")
+    else:
+        print(f"face detected with {(prob * 100):.2f}% certainty")

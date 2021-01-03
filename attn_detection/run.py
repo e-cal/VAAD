@@ -1,13 +1,15 @@
-from detector import *
+from detector import FaceDetector
 
 
 def main():
     detector = FaceDetector()
-    try:
-        box, prob, ld = detector.detect()
-        print(f"face detected with {(prob[0] * 100):.2f}% certainty")
-    except:
+    prob = detector.detect()
+    if prob == None:
+        prob = 0
         print("No face detected")
+    else:
+        prob = prob[0]
+        print(f"face detected with {(prob * 100):.2f}% certainty")
 
 
 main()

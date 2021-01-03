@@ -12,7 +12,7 @@ class FaceDetector(object):
         box, prob, ld = self.mtcnn.detect(frame, landmarks=True)
         if not type(box) == type(None):
             video.release()
-            return box, prob, ld
+            return prob
         video.release()
 
     def overlay(self, frame, box, prob):

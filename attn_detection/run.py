@@ -1,1 +1,5 @@
-import * from face_detection
+import * from face_detector
+
+main():
+    detector = FaceDetector()
+main()

@@ -1,6 +1,4 @@
-import numpy as np
 import cv2
-import torch
 from facenet_pytorch import MTCNN
 
 
@@ -56,4 +54,4 @@ if __name__ == "__main__":
         print(f"face detected with {(prob[0] * 100):.2f}% certainty")
     except:
         print("No face detected")
-    # detector.run()
+    detector.run()

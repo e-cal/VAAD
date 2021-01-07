@@ -7,14 +7,14 @@ class FaceDetector(object):
         self.mtcnn = MTCNN()
 
     def detect(self):
-        video = cv2.VideoCapture(0)
-        ret, frame = video.read()
+        cam = cv2.VideoCapture(0)
+        ret, frame = cam.read()
         box, prob, ld = self.mtcnn.detect(frame, landmarks=True)
         if not type(box) == type(None):
-            video.release()
+            cam.release()
             # return box, prob[0], ld
             return prob[0]
-        video.release()
+        cam.release()
 
     def overlay(self, frame, box, prob):
         for box, prob in zip(box, prob):
@@ -32,9 +32,9 @@ class FaceDetector(object):
                         cv2.LINE_AA)
 
     def run(self):
-        video = cv2.VideoCapture(0)
+        cam = cv2.VideoCapture(0)
         while True:
-            ret, frame = video.read()
+            ret, frame = cam.read()
             box, prob, ld = self.mtcnn.detect(frame, landmarks=True)
             if not type(box) == type(None):
                 print(f"facebox: {box}\nprob: {prob[0]}\n")
@@ -44,7 +44,7 @@ class FaceDetector(object):
             cv2.imshow('Face Detector', frame)
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
-        video.release()
+        cam.release()
         cv2.destroyAllWindows()
 
 

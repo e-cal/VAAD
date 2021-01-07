@@ -3,18 +3,28 @@ from facenet_pytorch import MTCNN
 
 
 class FaceDetector(object):
-    def __init__(self):
+    def __init__(self, cam=None):
         self.mtcnn = MTCNN()
+        if cam:
+            self.cam = cam
 
     def detect(self):
-        cam = cv2.VideoCapture(0)
+        releaseCam = False
+        if not self.cam:
+            cam = cv2.VideoCapture(0)
+            releaseCam = True
+        else:
+            cam = self.cam
         ret, frame = cam.read()
         box, prob, ld = self.mtcnn.detect(frame, landmarks=True)
         if not type(box) == type(None):
-            cam.release()
+            if releaseCam:
+                cam.release()
             # return box, prob[0], ld
             return prob[0]
-        cam.release()
+        if releaseCam:
+            cam.release()
+        return False
 
     def overlay(self, frame, box, prob):
         for box, prob in zip(box, prob):

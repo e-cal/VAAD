@@ -4,7 +4,7 @@ from detector import FaceDetector
 def main():
     detector = FaceDetector()
     prob = detector.detect()
-    if prob == None:
+    if not prob:
         print("No face detected")
         return
 

@@ -2,7 +2,7 @@ import cv2
 from facenet_pytorch import MTCNN
 
 
-class FaceDetector(object):
+class FaceDetector():
     def __init__(self, cam=None):
         self.mtcnn = MTCNN()
         if cam:
@@ -15,7 +15,7 @@ class FaceDetector(object):
             releaseCam = True
         else:
             cam = self.cam
-        ret, frame = cam.read()
+        _, frame = cam.read()
         box, prob, ld = self.mtcnn.detect(frame, landmarks=True)
         if not type(box) == type(None):
             if releaseCam:

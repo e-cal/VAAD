@@ -10,6 +10,8 @@ torchvision = "*"
 facenet-pytorch = "*"
 pandas = "*"
 opencv-python = "*"
+black = "*"
+autopep8 = "*"
 
 [dev-packages]
 

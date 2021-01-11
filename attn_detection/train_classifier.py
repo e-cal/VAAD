@@ -9,6 +9,9 @@ from torchvision import datasets, transforms, models
 
 DATA_DIR = "data/"
 
+# Use GPU if available
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
 
 def split_data(data_path, valid_size=0.2):
     train_transforms = transforms.Compose(
@@ -31,14 +34,7 @@ def split_data(data_path, valid_size=0.2):
     return trainloader, testloader
 
 
-def main():
-    # Define dataset loaders
-    trainloader, testloader = split_data(DATA_DIR)
-    print(f"Classes: {trainloader.dataset.classes}")
-
-    # Use GPU if available
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
+def init_model():
     # Load pretrained model (ResNet50)
     model = models.resnet50(pretrained=True)
     print("resnet50 model loaded")
@@ -54,13 +50,15 @@ def main():
         nn.LogSoftmax(dim=1)
     )
 
-    # Create loss function and optimizer with a learning rate
+    # Create loss function and optimizer
     criterion = nn.NLLLoss()
     optimizer = optim.Adam(model.fc.parameters(), lr=0.003)
     model.to(device)
 
-    # Train
-    epochs = 10
+    return model, criterion, optimizer
+
+
+def train(model, criterion, optimizer, trainloader, testloader, epochs=10):
     steps = 0
     running_loss = 0
     print_every = 10
@@ -86,7 +84,6 @@ def main():
                         logps = model.forward(inputs)
                         batch_loss = criterion(logps, labels)
                         test_loss += batch_loss.item()
-
                         ps = torch.exp(logps)
                         top_p, top_class = ps.topk(1, dim=1)
                         equals = top_class == labels.view(*top_class.shape)
@@ -100,6 +97,15 @@ def main():
                 running_loss = 0
                 model.train()
     torch.save(model, 'attention_model.pth')
+
+
+def main():
+    # Define dataset loaders
+    trainloader, testloader = split_data(DATA_DIR)
+    print(f"Classes: {trainloader.dataset.classes}")
+
+    model, criterion, optimizer = init_model()
+    train(model, criterion, optimizer, trainloader, testloader)
 
 
 main()

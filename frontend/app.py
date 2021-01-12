@@ -4,6 +4,7 @@ import sys
 import importlib.util
 import cv2
 import streamlit as st
+# from attn_detection.detector import detector
 
 
 def module_from_file(module_name, file_path):
@@ -18,9 +19,12 @@ def main():
              # Hi Kavin
              Say *cheese!*
              """)
-    Detector = module_from_file("detector", "../attn_detection/detector.py")
-    detector = Detector.FaceDetector()
-    detector.run()
+    # Detector = module_from_file("detector", "../attn_detection/detector.py")
+    # detector = Detector.FaceDetector()
+    # detector.run()
+    video = cv2.VideoCapture(0)
+    _, frame = video.read()
+    cv2.imshow('test', frame)
 
 
 if __name__ == "__main__":

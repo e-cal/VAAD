@@ -21,7 +21,6 @@ class AttentionClassifier():
         self.transforms = transforms.Compose([transforms.ToPILImage(),
                                               transforms.Resize(224),
                                               transforms.ToTensor(), ])
-
         if cam:
             self.cam = cam
             self.owns_cam = False

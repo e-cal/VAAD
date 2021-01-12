@@ -90,10 +90,10 @@ def train(model, criterion, optimizer, trainloader, testloader, epochs=10):
                         accuracy += torch.mean(equals.type(torch.FloatTensor)).item()
                 train_losses.append(running_loss/len(trainloader))
                 test_losses.append(test_loss/len(testloader))
-                print(f"Epoch {epoch+1}/{epochs}.. "
-                      f"Train loss: {running_loss/print_every:.3f}.. "
-                      f"Test loss: {test_loss/len(testloader):.3f}.. "
-                      f"Test accuracy: {accuracy/len(testloader):.3f}")
+                print(f"Epoch {epoch+1}/{epochs}: "
+                      f"\n\tTrain loss: {running_loss/print_every:.3f}"
+                      f"\n\tTest loss: {test_loss/len(testloader):.3f}"
+                      f"\n\tTest accuracy: {accuracy/len(testloader):.3f}")
                 running_loss = 0
                 model.train()
     torch.save(model, 'attention_model.pth')

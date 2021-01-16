@@ -5,29 +5,29 @@ from facenet_pytorch import MTCNN
 class FaceDetector():
     def __init__(self, cam=None):
         self.mtcnn = MTCNN()
-        if cam:
-            self.cam = cam
+        # self.app = False
+        # if cam:
+        #     self.cam = cam
+        # else:
+        #     self.cam = cv2.VideoCapture(2)
 
-    def detect(self):
-        releaseCam = False
-        if not self.cam:
-            cam = cv2.VideoCapture(0)
-            releaseCam = True
-        else:
-            cam = self.cam
-        _, frame = cam.read()
-        box, prob, ld = self.mtcnn.detect(frame, landmarks=True)
-        if not type(box) == type(None):
-            if releaseCam:
-                cam.release()
-            # return box, prob[0], ld
-            return prob[0]
-        if releaseCam:
-            cam.release()
-        return False
+    def release(self):
+        self.cam.release()
 
-    def overlay(self, frame, box, prob):
-        for box, prob in zip(box, prob):
+    def detect(self, frame):
+        box, prob = self.mtcnn.detect(frame)
+        if not box is None:
+            return zip(box, prob)
+        return None
+
+    def overlay(self, frame):
+        # _, frame = self.cam.read()
+        if frame is None:
+            return
+        det_data = self.detect(frame)
+        if det_data is None:
+            return frame
+        for box, prob in det_data:
             cv2.rectangle(frame,
                           (box[0], box[1]),
                           (box[2], box[3]),
@@ -40,6 +40,7 @@ class FaceDetector():
                         cv2.FONT_HERSHEY_SIMPLEX,
                         1, (0, 0, 255), 2,
                         cv2.LINE_AA)
+        return frame
 
     def run(self):
         cam = cv2.VideoCapture(0)
@@ -48,7 +49,19 @@ class FaceDetector():
             box, prob, ld = self.mtcnn.detect(frame, landmarks=True)
             if not type(box) == type(None):
                 print(f"facebox: {box}\nprob: {prob[0]}\n")
-                self.overlay(frame, box, prob)
+                for box, prob in zip(box, prob):
+                    cv2.rectangle(frame,
+                                  (box[0], box[1]),
+                                  (box[2], box[3]),
+                                  (0, 0, 255),
+                                  thickness=2)
+
+                    cv2.putText(frame,
+                                str(prob),
+                                (box[2], box[3]),
+                                cv2.FONT_HERSHEY_SIMPLEX,
+                                1, (0, 0, 255), 2,
+                                cv2.LINE_AA)
             else:
                 print("No face detected")
             cv2.imshow('Face Detector', frame)

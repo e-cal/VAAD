@@ -3,7 +3,6 @@ from detector import FaceDetector
 
 def main():
     detector = FaceDetector()
-    detector.run()
 #    prob = detector.detect()
 #    if prob == None:
 #        print("No face detected")

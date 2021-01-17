@@ -24,6 +24,7 @@ import click
 import google.auth.transport.grpc
 import google.auth.transport.requests
 import google.oauth2.credentials
+import google
 
 from google.assistant.embedded.v1alpha2 import (
     embedded_assistant_pb2,

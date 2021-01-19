@@ -1,7 +1,8 @@
 import importlib.util
 import cv2
 import streamlit as st
-
+import sounddevice as sd
+from scipy.io.wavfile import write
 
 def module_from_file(module_name, file_path):
     spec = importlib.util.spec_from_file_location(module_name, file_path)
@@ -27,15 +28,24 @@ def get_alt_cap():
 def get_detector():
     return Detector.FaceDetector()
 
-
 if __name__ == "__main__":
     st.title("Test")
     alt = st.checkbox("Use alternate webcam")
+    record = st.button("Use Audio Recorder")
 
     if alt:
         cap = get_alt_cap()
     else:
         cap = get_cap()
+
+    if record:
+        fs = 44100  # Sample rate
+        seconds = 10  # Duration of recording
+
+        myrecording = sd.rec(int(seconds * fs), samplerate=fs, channels=1)
+        sd.wait()  # Wait until recording is finished
+        write('output.wav', fs, myrecording)  # Save as WAV file
+
 
     detector = get_detector()
 

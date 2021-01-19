@@ -11,6 +11,8 @@ facenet-pytorch = "*"
 pandas = "*"
 opencv-python = "*"
 streamlit = "*"
+sounddevice = "*"
+scipy = "*"
 
 [dev-packages]
 pylint = "*"

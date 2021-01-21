@@ -20,8 +20,14 @@ click = "*"
 tenacity = "*"
 futures = "*"
 pathlib = "*"
+streamlit = "*"
+scipy = "*"
+google-cloud-dialogflow = "*"
 
 [dev-packages]
+pylint = "*"
+autopep8 = "*"
+rope = "*"
 
 [requires]
 python_version = "3.9"

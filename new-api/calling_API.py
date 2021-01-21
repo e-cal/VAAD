@@ -36,6 +36,8 @@ def detect_intent_texts(project_id, session_id, texts, language_code):
 if __name__ == "__main__":
     # These should all be the same
     project_id = "vaad-302015"
+    # Session ID can be whatever and it's stored for like 20 min to keep a record
+    # But we can also change this if needed but this one should work!
     session_id = 123456789
     language_code = "en-US"
     # texts is the input, so I think it can be either a string, text input or audio

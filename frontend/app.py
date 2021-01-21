@@ -1,4 +1,5 @@
 import importlib.util
+import api
 import cv2
 import streamlit as st
 import sounddevice as sd
@@ -44,7 +45,7 @@ if __name__ == "__main__":
 
         myrecording = sd.rec(int(seconds * fs), samplerate=fs, channels=1)
         sd.wait()  # Wait until recording is finished
-        write('output.wav', fs, myrecording)  # Save as WAV file
+        write('output.mp3', fs, myrecording)  # Save as WAV file
 
 
     detector = get_detector()
@@ -56,6 +57,7 @@ if __name__ == "__main__":
         ret, frame = cap.read()
         overlay = detector.overlay(frame)
         if not overlay is None:
+            api.detect_intent_texts()
             frame = cv2.cvtColor(overlay, cv2.COLOR_BGR2RGB)
 
         # Stop the program if reached end of video

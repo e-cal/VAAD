@@ -145,6 +145,6 @@ if __name__ == "__main__":
     texts = ["What is QMIND"]
     # detect_intent_texts(project_id, session_id, texts, language_code)
 
-    audio_file = "output.mp3"
+    audio_file = "output2.wav"
     detect_intent_stream(project_id, session_id, audio_file, language_code)
 

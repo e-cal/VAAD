@@ -41,11 +41,11 @@ if __name__ == "__main__":
 
     if record:
         fs = 44100  # Sample rate
-        seconds = 10  # Duration of recording
+        seconds = 5  # Duration of recording
 
         myrecording = sd.rec(int(seconds * fs), samplerate=fs, channels=1)
         sd.wait()  # Wait until recording is finished
-        write('output.mp3', fs, myrecording)  # Save as WAV file
+        write('output.wav', fs, myrecording)  # Save as WAV file
 
 
     detector = get_detector()
@@ -57,7 +57,12 @@ if __name__ == "__main__":
         ret, frame = cap.read()
         overlay = detector.overlay(frame)
         if not overlay is None:
-            api.detect_intent_texts()
+            project_id = "vaad-302015"
+            session_id = 123456789
+            language_code = "en-US"
+            texts = ["What is QMIND"]
+            api.detect_intent_texts(project_id, session_id, texts, language_code)
+            print("here")
             frame = cv2.cvtColor(overlay, cv2.COLOR_BGR2RGB)
 
         # Stop the program if reached end of video

@@ -26,7 +26,7 @@ class FaceDetector():
             return
         det_data = self.detect(frame)
         if det_data is None:
-            return frame
+            return None
         for box, prob in det_data:
             cv2.rectangle(frame,
                           (box[0], box[1]),

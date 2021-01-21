@@ -23,6 +23,7 @@ pathlib = "*"
 streamlit = "*"
 scipy = "*"
 google-cloud-dialogflow = "*"
+neovim = "*"
 
 [dev-packages]
 pylint = "*"

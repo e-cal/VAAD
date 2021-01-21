@@ -1,9 +1,5 @@
 from google.cloud import dialogflow
 
-project_id = "vaad-302015"
-session_id = 123456789
-language_code = "en-US"
-
 # link for integrating with API:
 # https://cloud.google.com/dialogflow/es/docs/quick/api
 
@@ -36,3 +32,13 @@ def detect_intent_texts(project_id, session_id, texts, language_code):
             response.query_result.intent_detection_confidence))
         print('Fulfillment text: {}\n'.format(
             response.query_result.fulfillment_text))
+
+if __name__ == "__main__":
+    # These should all be the same
+    project_id = "vaad-302015"
+    session_id = 123456789
+    language_code = "en-US"
+    # texts is the input, so I think it can be either a string, text input or audio
+    # This should be the only variable that changes I think
+    texts = " What is QMIND"
+    detect_intent_texts(project_id, session_id, texts, language_code)

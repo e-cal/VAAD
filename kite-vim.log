@@ -1,0 +1,626 @@
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms 'http://127.0.0.1:46624/clientapi/languages'
+< △▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽HTTP/1.1 200 OK
+< 
+< ["bash","c","cpp","csharp","css","go","html","java","javascript","jsx","kotlin","less","objectivec","php","python","ruby","scala","tsx","typescript","vue"]
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms 'http://127.0.0.1:46624/clientapi/languages'
+< △▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽HTTP/1.1 200 OK
+< 
+< ["bash","c","cpp","csharp","css","go","html","java","javascript","jsx","kotlin","less","objectivec","php","python","ruby","scala","tsx","typescript","vue"]
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms 'http://127.0.0.1:46624/clientapi/languages'
+< △▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽HTTP/1.1 200 OK
+< 
+< ["bash","c","cpp","csharp","css","go","html","java","javascript","jsx","kotlin","less","objectivec","php","python","ruby","scala","tsx","typescript","vue"]
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms 'http://127.0.0.1:46624/clientapi/languages'
+< △▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽HTTP/1.1 200 OK
+< 
+< ["bash","c","cpp","csharp","css","go","html","java","javascript","jsx","kotlin","less","objectivec","php","python","ruby","scala","tsx","typescript","vue"]
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms 'http://127.0.0.1:46624/clientapi/languages'
+< △▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽HTTP/1.1 200 OK
+< 
+< ["bash","c","cpp","csharp","css","go","html","java","javascript","jsx","kotlin","less","objectivec","php","python","ruby","scala","tsx","typescript","vue"]
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms 'http://127.0.0.1:46624/clientapi/languages'
+< HTTP/1.1 200 OK
+< 
+< ["bash","c","cpp","csharp","css","go","html","java","javascript","jsx","kotlin","less","objectivec","php","python","ruby","scala","tsx","typescript","vue"]
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms 'http://127.0.0.1:46624/clientapi/settings/max_file_size_kb'
+< HTTP/1.1 200 OK
+< 
+< 1024
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms 'http://127.0.0.1:46624/clientapi/settings/max_file_size_kb'
+< HTTP/1.1 200 OK
+< 
+< 1024
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms 'http://127.0.0.1:46624/clientapi/settings/max_file_size_kb'
+< HTTP/1.1 200 OK
+< 
+< 1024
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms 'http://127.0.0.1:46624/clientapi/settings/max_file_size_kb'
+< HTTP/1.1 200 OK
+< 
+< 1024
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms 'http://127.0.0.1:46624/clientapi/settings/max_file_size_kb'
+< HTTP/1.1 200 OK
+< 
+< 1024
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 400ms 'http://127.0.0.1:46624/api/buffer/vim/%3Ahome%3Aecal%3Aprojects%3Aqmind-vaad%3Aattn_detection%3Atest_classifier.py/bf5d8b7b3592a8b188b20960c6aebfe3/hover?cursor_runes=603'
+< HTTP/1.1 404 Not Found
+< 
+< could not resolve symbol for attr expression
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 400ms 'http://127.0.0.1:46624/api/buffer/vim/%3Ahome%3Aecal%3Aprojects%3Aqmind-vaad%3Aattn_detection%3Atest_classifier.py/bf5d8b7b3592a8b188b20960c6aebfe3/hover?cursor_runes=609'
+< HTTP/1.1 404 Not Found
+< 
+< could not resolve symbol for attr expression
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 400ms 'http://127.0.0.1:46624/api/buffer/vim/%3Ahome%3Aecal%3Aprojects%3Aqmind-vaad%3Aattn_detection%3Atest_classifier.py/bf5d8b7b3592a8b188b20960c6aebfe3/hover?cursor_runes=720'
+< HTTP/1.1 404 Not Found
+< 
+< could not resolve symbol for attr expression
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 400ms - 'http://127.0.0.1:46624/clientapi/editor/complete'
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 400ms - 'http://127.0.0.1:46624/clientapi/editor/complete'
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+< HTTP/1.1 200 OK
+< 
+< 
+< HTTP/1.1 200 OK
+< 
+< {"http_status":200,"offset_encoding":"utf-32","completions":[{"snippet":{"placeholders":[],"text":"if "},"replace":{"begin":309,"end":310},"display":"if","documentation":{"text":""},"hint":"keyword","smart":false},{"snippet":{"placeholders":[],"text":"import "},"replace":{"begin":309,"end":310},"display":"import","documentation":{"text":""},"hint":"keyword","smart":false},{"snippet":{"placeholders":[],"text":"import cv2"},"replace":{"begin":309,"end":310},"display":"import cv2","documentation":{"text":""},"hint":"3★ pro","smart":true},{"snippet":{"placeholders":[],"text":"import matplotlib"},"replace":{"begin":309,"end":310},"display":"import matplotlib","documentation":{"text":""},"hint":"3★ pro","smart":true},{"snippet":{"placeholders":[],"text":"Image"},"replace":{"begin":309,"end":310},"display":"Image","documentation":{"text":""},"web_id":"PIL.Image","local_id":"python;;;;PIL.Image","hint":"module","smart":false},{"snippet":{"placeholders":[],"text":"IOError"},"replace":{"begin":309,"end":310},"display":"IOError","documentation":{"text":"The functions described below may raise this error if the underlying system call failures unexpectedly."},"web_id":"builtins.IOError","local_id":"python;;;;builtins.IOError","hint":"type","smart":false},{"snippet":{"placeholders":[],"text":"ImportError"},"replace":{"begin":309,"end":310},"display":"ImportError","documentation":{"text":"Raised when an import statement fails to find the module definition or when a from... import fails to find a name that is to be imported."},"web_id":"builtins.ImportError","local_id":"python;;;;builtins.ImportError","hint":"type","smart":false},{"snippet":{"placeholders":[],"text":"ImportWarning"},"replace":{"begin":309,"end":310},"display":"ImportWarning","documentation":{"text":"Base class for warnings about probable mistakes in module imports.\n\nNew in version 2.5."},"web_id":"builtins.ImportWarning","local_id":"python;;;;builtins.ImportWarning","hint":"type","smart":false},{"snippet":{"placeholders":[],"text":"IndentationError"},"replace":{"begin":309,"end":310},"display":"IndentationError","documentation":{"text":"Base class for syntax errors related to incorrect indentation. This is a subclass of SyntaxError ( #exceptions.SyntaxError )."},"web_id":"builtins.IndentationError","local_id":"python;;;;builtins.IndentationError","hint":"type","smart":false},{"snippet":{"placeholders":[],"text":"IndexError"},"replace":{"begin":309,"end":310},"display":"IndexError","documentation":{"text":"Raised when a sequence subscript is out of range. (Slice indices are silently truncated to fall in the allowed range; if an index is not a plain integer, TypeError ( #exceptions.TypeError ) is raised.)"},"web_id":"builtins.IndexError","local_id":"python;;;;builtins.IndexError","hint":"type","smart":false},{"snippet":{"placeholders":[],"text":"InterruptedError"},"replace":{"begin":309,"end":310},"display":"InterruptedError","documentation":{"text":"Interrupted by signal."},"web_id":"builtins.InterruptedError","local_id":"python;;;;builtins.InterruptedError","hint":"type","smart":false},{"snippet":{"placeholders":[],"text":"IsADirectoryError"},"replace":{"begin":309,"end":310},"display":"IsADirectoryError","documentation":{"text":"Operation doesn't work on directories."},"web_id":"builtins.IsADirectoryError","local_id":"python;;;;builtins.IsADirectoryError","hint":"type","smart":false},{"snippet":{"placeholders":[],"text":"id"},"replace":{"begin":309,"end":310},"display":"id","documentation":{"text":"Return the “identity” of an object. This is an integer (or long integer) which is guaranteed to be unique and constant for this object during its lifetime. Two objects with non-overlapping lifetimes may have the same id() ( #id ) value.\n\n*CPython implementation detail:* This is the address of the object in memory."},"web_id":"builtins.id","local_id":"python;;;;builtins.id","hint":"function","smart":false},{"snippet":{"placeholders":[],"text":"input"},"replace":{"begin":309,"end":310},"display":"input","documentation":{"text":"If the prompt argument is present, it is written to standard output without a trailing newline. The function then reads a line from input, converts it to a string (stripping a trailing newline), and returns that. When EOF is read, EOFError ( #exceptions.EOFError ) is raised. Example:\n\n\u003e\u003e\u003e s = raw_input('--\u003e ')\n--\u003e Monty Python's Flying Circus\n\u003e\u003e\u003e s\n\"Monty Python's Flying Circus\"\n\nIf the readline module was loaded, then raw_input() ( #raw_input ) will use it to provide elaborate line editing and "},"web_id":"builtins.input","local_id":"python;;;;builtins.input","hint":"function","smart":false},{"snippet":{"placeholders":[],"text":"int"},"replace":{"begin":309,"end":310},"display":"int","documentation":{"text":"Backport of Python 3's int, based on Py2's long.\n\nThey are very similar. The most notable difference is:\n\n* representation: trailing L in Python 2 removed in Python 3"},"web_id":"builtins.int","local_id":"python;;;;builtins.int","hint":"type","smart":false},{"snippet":{"placeholders":[],"text":"intern"},"replace":{"begin":309,"end":310},"display":"intern","documentation":{"text":"Enter string in the table of “interned” strings and return the interned string – which is string itself or a copy. Interning strings is useful to gain a little performance on dictionary lookup – if the keys in a dictionary are interned, and the lookup key is interned, the key comparisons (after hashing) can be done by a pointer compare instead of a string compare. Normally, the names used in Python programs are automatically interned, and the dictionaries used to hold module, class or in"},"web_id":"builtins.intern","local_id":"python;;;;builtins.intern","hint":"function","smart":false},{"snippet":{"placeholders":[],"text":"isinstance"},"replace":{"begin":309,"end":310},"display":"isinstance","documentation":{"text":"Return true if the object argument is an instance of the classinfo argument, or of a (direct, indirect or virtual ) subclass thereof. Also return true if classinfo is a type object (new-style class) and object is an object of that type or of a (direct, indirect or virtual ) subclass thereof. If object is not a class instance or an object of the given type, the function always returns false. If classinfo is neither a class object nor a type object, it may be a tuple of class or type objects, or m"},"web_id":"builtins.isinstance","local_id":"python;;;;builtins.isinstance","hint":"function","smart":false},{"snippet":{"placeholders":[],"text":"issubclass"},"replace":{"begin":309,"end":310},"display":"issubclass","documentation":{"text":"Return true if class is a subclass (direct, indirect or virtual ) of classinfo. A class is considered a subclass of itself. classinfo may be a tuple of class objects, in which case every entry in classinfo will be checked. In any other case, a TypeError ( #exceptions.TypeError ) exception is raised.\n\nChanged in version 2.3: Support for a tuple of type information was added."},"web_id":"builtins.issubclass","local_id":"python;;;;builtins.issubclass","hint":"function","smart":false},{"snippet":{"placeholders":[],"text":"iter"},"replace":{"begin":309,"end":310},"display":"iter","documentation":{"text":"Return an iterator object. The first argument is interpreted very differently depending on the presence of the second argument. Without a second argument, o must be a collection object which supports the iteration protocol (the __iter__() method), or it must support the sequence protocol (the __getitem__() method with integer arguments starting at 0 ). If it does not support either of those protocols, TypeError ( #exceptions.TypeError ) is raised. If the second argument, sentinel , is given, the"},"web_id":"builtins.iter","local_id":"python;;;;builtins.iter","hint":"function","smart":false}]}
+completion: 200
+< HTTP/1.1 200 OK
+< 
+< {"http_status":200,"offset_encoding":"utf-32","completions":[{"snippet":{"placeholders":[],"text":"Image"},"replace":{"begin":309,"end":311},"display":"Image","documentation":{"text":""},"web_id":"PIL.Image","local_id":"python;;;;PIL.Image","hint":"module","smart":false},{"snippet":{"placeholders":[],"text":"ImportError"},"replace":{"begin":309,"end":311},"display":"ImportError","documentation":{"text":"Raised when an import statement fails to find the module definition or when a from... import fails to find a name that is to be imported."},"web_id":"builtins.ImportError","local_id":"python;;;;builtins.ImportError","hint":"type","smart":false},{"snippet":{"placeholders":[],"text":"ImportWarning"},"replace":{"begin":309,"end":311},"display":"ImportWarning","documentation":{"text":"Base class for warnings about probable mistakes in module imports.\n\nNew in version 2.5."},"web_id":"builtins.ImportWarning","local_id":"python;;;;builtins.ImportWarning","hint":"type","smart":false},{"snippet":{"placeholders":[],"text":"import "},"replace":{"begin":309,"end":311},"display":"import","documentation":{"text":""},"hint":"keyword","smart":false},{"snippet":{"placeholders":[],"text":"import cv2"},"replace":{"begin":309,"end":311},"display":"import cv2","documentation":{"text":""},"hint":"3★ pro","smart":true},{"snippet":{"placeholders":[],"text":"import matplotlib"},"replace":{"begin":309,"end":311},"display":"import matplotlib","documentation":{"text":""},"hint":"3★ pro","smart":true}]}
+completion: 200
+# Trigger autocomplete because of pumvisible(): p
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 400ms - 'http://127.0.0.1:46624/clientapi/editor/complete'
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+< HTTP/1.1 200 OK
+< 
+< {"http_status":200,"offset_encoding":"utf-32","completions":[{"snippet":{"placeholders":[],"text":"ImportError"},"replace":{"begin":309,"end":312},"display":"ImportError","documentation":{"text":"Raised when an import statement fails to find the module definition or when a from... import fails to find a name that is to be imported."},"web_id":"builtins.ImportError","local_id":"python;;;;builtins.ImportError","hint":"type","smart":false},{"snippet":{"placeholders":[],"text":"ImportWarning"},"replace":{"begin":309,"end":312},"display":"ImportWarning","documentation":{"text":"Base class for warnings about probable mistakes in module imports.\n\nNew in version 2.5."},"web_id":"builtins.ImportWarning","local_id":"python;;;;builtins.ImportWarning","hint":"type","smart":false},{"snippet":{"placeholders":[],"text":"import "},"replace":{"begin":309,"end":312},"display":"import","documentation":{"text":""},"hint":"keyword","smart":false},{"snippet":{"placeholders":[],"text":"import cv2"},"replace":{"begin":309,"end":312},"display":"import cv2","documentation":{"text":""},"hint":"3★ pro","smart":true},{"snippet":{"placeholders":[],"text":"import matplotlib"},"replace":{"begin":309,"end":312},"display":"import matplotlib","documentation":{"text":""},"hint":"3★ pro","smart":true}]}
+completion: 200
+# Trigger autocomplete because of pumvisible(): o
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 400ms - 'http://127.0.0.1:46624/clientapi/editor/complete'
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+< HTTP/1.1 200 OK
+< 
+< {"http_status":200,"offset_encoding":"utf-32","completions":[{"snippet":{"placeholders":[],"text":"ImportError"},"replace":{"begin":309,"end":313},"display":"ImportError","documentation":{"text":"Raised when an import statement fails to find the module definition or when a from... import fails to find a name that is to be imported."},"web_id":"builtins.ImportError","local_id":"python;;;;builtins.ImportError","hint":"type","smart":false},{"snippet":{"placeholders":[],"text":"ImportWarning"},"replace":{"begin":309,"end":313},"display":"ImportWarning","documentation":{"text":"Base class for warnings about probable mistakes in module imports.\n\nNew in version 2.5."},"web_id":"builtins.ImportWarning","local_id":"python;;;;builtins.ImportWarning","hint":"type","smart":false},{"snippet":{"placeholders":[],"text":"import "},"replace":{"begin":309,"end":313},"display":"import","documentation":{"text":""},"hint":"keyword","smart":false},{"snippet":{"placeholders":[],"text":"import cv2"},"replace":{"begin":309,"end":313},"display":"import cv2","documentation":{"text":""},"hint":"3★ pro","smart":true},{"snippet":{"placeholders":[],"text":"import matplotlib"},"replace":{"begin":309,"end":313},"display":"import matplotlib","documentation":{"text":""},"hint":"3★ pro","smart":true}]}
+completion: 200
+# Trigger autocomplete because of pumvisible(): r
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 400ms - 'http://127.0.0.1:46624/clientapi/editor/complete'
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+< HTTP/1.1 200 OK
+< 
+< {"http_status":200,"offset_encoding":"utf-32","completions":[{"snippet":{"placeholders":[],"text":"ImportError"},"replace":{"begin":309,"end":314},"display":"ImportError","documentation":{"text":"Raised when an import statement fails to find the module definition or when a from... import fails to find a name that is to be imported."},"web_id":"builtins.ImportError","local_id":"python;;;;builtins.ImportError","hint":"type","smart":false},{"snippet":{"placeholders":[],"text":"ImportWarning"},"replace":{"begin":309,"end":314},"display":"ImportWarning","documentation":{"text":"Base class for warnings about probable mistakes in module imports.\n\nNew in version 2.5."},"web_id":"builtins.ImportWarning","local_id":"python;;;;builtins.ImportWarning","hint":"type","smart":false},{"snippet":{"placeholders":[],"text":"import "},"replace":{"begin":309,"end":314},"display":"import","documentation":{"text":""},"hint":"keyword","smart":false},{"snippet":{"placeholders":[],"text":"import cv2"},"replace":{"begin":309,"end":314},"display":"import cv2","documentation":{"text":""},"hint":"3★ pro","smart":true},{"snippet":{"placeholders":[],"text":"import matplotlib"},"replace":{"begin":309,"end":314},"display":"import matplotlib","documentation":{"text":""},"hint":"3★ pro","smart":true}]}
+completion: 200
+# Trigger autocomplete because of pumvisible(): t
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 400ms - 'http://127.0.0.1:46624/clientapi/editor/complete'
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+< HTTP/1.1 200 OK
+< 
+< {"http_status":200,"offset_encoding":"utf-32","completions":[{"snippet":{"placeholders":[],"text":"ImportError"},"replace":{"begin":309,"end":315},"display":"ImportError","documentation":{"text":"Raised when an import statement fails to find the module definition or when a from... import fails to find a name that is to be imported."},"web_id":"builtins.ImportError","local_id":"python;;;;builtins.ImportError","hint":"type","smart":false},{"snippet":{"placeholders":[],"text":"ImportWarning"},"replace":{"begin":309,"end":315},"display":"ImportWarning","documentation":{"text":"Base class for warnings about probable mistakes in module imports.\n\nNew in version 2.5."},"web_id":"builtins.ImportWarning","local_id":"python;;;;builtins.ImportWarning","hint":"type","smart":false},{"snippet":{"placeholders":[],"text":"import "},"replace":{"begin":309,"end":315},"display":"import","documentation":{"text":""},"hint":"keyword","smart":false},{"snippet":{"placeholders":[],"text":"import cv2"},"replace":{"begin":309,"end":315},"display":"import cv2","documentation":{"text":""},"hint":"3★ pro","smart":true},{"snippet":{"placeholders":[],"text":"import matplotlib"},"replace":{"begin":309,"end":315},"display":"import matplotlib","documentation":{"text":""},"hint":"3★ pro","smart":true}]}
+completion: 200
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 400ms - 'http://127.0.0.1:46624/clientapi/editor/complete'
+< HTTP/1.1 200 OK
+< 
+< 
+< HTTP/1.1 200 OK
+< 
+< {"http_status":200,"offset_encoding":"utf-32","completions":[{"snippet":{"placeholders":[],"text":"django"},"replace":{"begin":316,"end":316},"display":"django","documentation":{"text":""},"web_id":"django","local_id":"python;;;;django","hint":"module","smart":false},{"snippet":{"placeholders":[],"text":"os"},"replace":{"begin":316,"end":316},"display":"os","documentation":{"text":"OS routines for NT or Posix depending on what system we're on.\n\nThis exports:\n\n* all functions from posix, nt, os2, or ce, e.g. unlink, stat, etc.\n* os.path is one of the modules posixpath, or ntpath\n* os.name is 'posix', 'nt', 'os2', 'ce' or 'riscos'\n* os.curdir is a string representing the current directory ('.' or ':')\n* os.pardir is a string representing the parent directory ('..' or '::')\n* os.sep is the (or a most common) pathname separator ('/' or ':' or '\\')\n* os.extsep is the extension "},"web_id":"os","local_id":"python;;;;os","hint":"module","smart":false},{"snippet":{"placeholders":[],"text":"__future__"},"replace":{"begin":316,"end":316},"display":"__future__","documentation":{"text":"Record of phased-in incompatible language changes.\n\nEach line is of the form:\n\nFeatureName = \"_Feature(\" OptionalRelease \",\" MandatoryRelease \",\" CompilerFlag \")\"\n\nwhere, normally, OptionalRelease \u003c MandatoryRelease, and both are 5-tuples of the same form as sys.version_info:\n\n(PY_MAJOR_VERSION, # the 2 in 2.1.0a3; an int PY_MINOR_VERSION, # the 1; an int PY_MICRO_VERSION, # the 0; an int PY_RELEASE_LEVEL, # \"alpha\", \"beta\", \"candidate\" or \"final\"; string PY_RELEASE_SERIAL # the 3; an int\n\n)\n\nOp"},"web_id":"__future__","local_id":"python;;;;__future__","hint":"module","smart":false},{"snippet":{"placeholders":[],"text":"sys"},"replace":{"begin":316,"end":316},"display":"sys","documentation":{"text":"This module provides access to some objects used or maintained by the interpreter and to functions that interact strongly with the interpreter.\n\nDynamic objects:\n\nargv -- command line arguments; argv[0] is the script pathname if known path -- module search path; path[0] is the script directory, else '' modules -- dictionary of loaded modules\n\ndisplayhook -- called to show results in an interactive session excepthook -- called to handle any uncaught exception other than SystemExit\n\nTo customize p"},"web_id":"sys","local_id":"python;;;;sys","hint":"module","smart":false},{"snippet":{"placeholders":[],"text":"numpy as np"},"replace":{"begin":316,"end":316},"display":"numpy as np","documentation":{"text":"*****\nNumPy\n*****\n\nProvides * An array object of arbitrary homogeneous items\n* Fast mathematical operations over arrays\n* Linear Algebra, Fourier Transforms, Random Number Generation\n\n****************************\nHow to use the documentation\n****************************\n\nDocumentation is available in two forms: docstrings provided with the code, and a loose standing reference guide, available from the NumPy homepage ( #http://www.scipy.org ).\n\nWe recommend exploring the docstrings using IPython "},"web_id":"numpy","local_id":"python;;;;numpy","hint":"module","smart":false},{"snippet":{"placeholders":[],"text":"time"},"replace":{"begin":316,"end":316},"display":"time","documentation":{"text":"This module provides various functions to manipulate time values.\n\nThere are two standard representations of time. One is the number of seconds since the Epoch, in UTC (a.k.a. GMT). It may be an integer or a floating point number (to represent fractions of seconds). The Epoch is system-defined; on Unix, it is generally January 1st, 1970. The actual value can be retrieved by calling gmtime(0).\n\nThe other representation is a tuple of 9 integers giving local time. The tuple items are:\n\nyear (four d"},"web_id":"time","local_id":"python;;;;time","hint":"module","smart":false},{"snippet":{"placeholders":[],"text":"datetime"},"replace":{"begin":316,"end":316},"display":"datetime","documentation":{"text":"Fast implementation of the datetime type."},"web_id":"datetime","local_id":"python;;;;datetime","hint":"module","smart":false},{"snippet":{"placeholders":[],"text":"sklearn"},"replace":{"begin":316,"end":316},"display":"sklearn","documentation":{"text":"**********************************\nMachine learning module for Python\n**********************************\n\nsklearn is a Python module integrating classical machine learning algorithms in the tightly-knit world of scientific Python packages (numpy, scipy, matplotlib).\n\nIt aims to provide simple and efficient solutions to learning problems that are accessible to everybody and reusable in various contexts: machine-learning as a versatile tool for science and engineering.\n\nSee http://scikit-learn.org"},"web_id":"sklearn","local_id":"python;;;;sklearn","hint":"module","smart":false},{"snippet":{"placeholders":[],"text":"re"},"replace":{"begin":316,"end":316},"display":"re","documentation":{"text":"Support for regular expressions (RE).\n\nThis module provides regular expression matching operations similar to those found in Perl. It supports both 8-bit and Unicode strings; both the pattern and the strings being processed can contain null bytes and characters outside the US ASCII range.\n\nRegular expressions can contain both special and ordinary characters. Most ordinary characters, like \"A\", \"a\", or \"0\", are the simplest regular expressions; they simply match themselves. You can concatenate or"},"web_id":"re","local_id":"python;;;;re","hint":"module","smart":false},{"snippet":{"placeholders":[],"text":"matplotlib"},"replace":{"begin":316,"end":316},"display":"matplotlib","documentation":{"text":"This is an object-oriented plotting library.\n\nA procedural interface is provided by the companion pyplot module, which may be imported directly, e.g.:\n\nimport matplotlib.pyplot as plt\n\nor using ipython:\n\nipython\n\nat your terminal, followed by:\n\nIn [1]: %matplotlib\nIn [2]: import matplotlib.pyplot as plt\n\nat the ipython shell prompt.\n\nFor the most part, direct use of the object-oriented library is encouraged when programming; pyplot is primarily for working interactively. The exceptions are the p"},"web_id":"matplotlib","local_id":"python;;;;matplotlib","hint":"module","smart":false},{"snippet":{"placeholders":[],"text":"flask"},"replace":{"begin":316,"end":316},"display":"flask","documentation":{"text":"*****\nflask\n*****\n\nA microframework based on Werkzeug. It's extensively documented and follows best practice patterns.\n\ncopyright: * 2015 by Armin Ronacher.\nlicense:\n\nBSD, see LICENSE for more details."},"web_id":"flask","local_id":"python;;;;flask","hint":"module","smart":false},{"snippet":{"placeholders":[],"text":"random"},"replace":{"begin":316,"end":316},"display":"random","documentation":{"text":"Random variable generators.\n\nuniform within range pick random element pick random sample generate random permutation uniform triangular normal (Gaussian) lognormal negative exponential gamma beta pareto Weibull circular uniform von Mises\n\nGeneral notes on the underlying Mersenne Twister core generator:\n\n* The period is 2**19937-1.\n* It is one of the most extensively tested generators in existence.\n* Without a direct way to compute N steps forward, the semantics of jumpahead(n) are weakened to si"},"web_id":"random","local_id":"python;;;;random","hint":"module","smart":false},{"snippet":{"placeholders":[],"text":"logging"},"replace":{"begin":316,"end":316},"display":"logging","documentation":{"text":"Logging package for Python. Based on PEP 282 and comments thereto in comp.lang.python.\n\nCopyright (C) 2001-2014 Vinay Sajip. All Rights Reserved.\n\nTo use, simply 'import logging' and log away!"},"web_id":"logging","local_id":"python;;;;logging","hint":"module","smart":false},{"snippet":{"placeholders":[],"text":"math"},"replace":{"begin":316,"end":316},"display":"math","documentation":{"text":"This module is always available. It provides access to the mathematical functions defined by the C standard."},"web_id":"math","local_id":"python;;;;math","hint":"module","smart":false},{"snippet":{"placeholders":[],"text":"json"},"replace":{"begin":316,"end":316},"display":"json","documentation":{"text":"JSON (JavaScript Object Notation) \u003c http://json.org ( #http://json.org ) \u003e is a subset of JavaScript syntax (ECMA-262 3rd edition) used as a lightweight data interchange format.\n\njson ( #json ) exposes an API familiar to users of the standard library marshal ( #marshal ) and pickle ( #pickle ) modules. It is the externally maintained version of the json ( #json ) library contained in Python 2.6, but maintains compatibility with Python 2.4 and Python 2.5 and (currently) has significant performanc"},"web_id":"json","local_id":"python;;;;json","hint":"module","smart":false},{"snippet":{"placeholders":[],"text":"collections"},"replace":{"begin":316,"end":316},"display":"collections","documentation":{"text":"This module implements specialized container datatypes providing\nalternatives to Python's general purpose built-in containers, dict,\nlist, set, and tuple.\n\n* namedtuple   factory function for creating tuple subclasses with named fields\n* deque        list-like container with fast appends and pops on either end\n* ChainMap     dict-like class for creating a single view of multiple mappings\n* Counter      dict subclass for counting hashable objects\n* OrderedDict  dict subclass that remembers the or"},"web_id":"collections","local_id":"python;;;;collections","hint":"module","smart":false},{"snippet":{"placeholders":[],"text":"sqlalchemy"},"replace":{"begin":316,"end":316},"display":"sqlalchemy","documentation":{"text":""},"web_id":"sqlalchemy","local_id":"python;;;;sqlalchemy","hint":"module","smart":false},{"snippet":{"placeholders":[],"text":"keras"},"replace":{"begin":316,"end":316},"display":"keras","documentation":{"text":""},"web_id":"keras","local_id":"python;;;;keras","hint":"module","smart":false},{"snippet":{"placeholders":[],"text":"scipy"},"replace":{"begin":316,"end":316},"display":"scipy","documentation":{"text":"************************************************\nSciPy: A scientific computing package for Python\n************************************************\n\nDocumentation is available in the docstrings and online at http://docs.scipy.org ( #http://docs.scipy.org ).\n\n********\nContents\n********\n\nSciPy imports all the functions from the NumPy namespace, and in addition provides:\n\n***********\nSubpackages\n***********\n\nUsing any of these subpackages requires an explicit import. For example, import scipy.cluste"},"web_id":"scipy","local_id":"python;;;;scipy","hint":"module","smart":false},{"snippet":{"placeholders":[],"text":"unittest"},"replace":{"begin":316,"end":316},"display":"unittest","documentation":{"text":"Python unit testing framework, based on Erich Gamma's JUnit and Kent Beck's Smalltalk testing framework.\n\nThis module contains the core framework classes that form the basis of specific test cases and suites (TestCase, TestSuite etc.), and also a text-based utility class for running the tests and reporting the results\n\n(TextTestRunner).\n\nSimple usage:\n\nimport unittest\n\nclass IntegerArithmeticTestCase(unittest.TestCase): def testAdd(self): ## test method names begin 'test*' self.assertEqual((1 + "},"web_id":"unittest","local_id":"python;;;;unittest","hint":"module","smart":false}]}
+completion: 200
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms 'http://127.0.0.1:46624/clientapi/languages'
+< HTTP/1.1 200 OK
+< 
+< ["bash","c","cpp","csharp","css","go","html","java","javascript","jsx","kotlin","less","objectivec","php","python","ruby","scala","tsx","typescript","vue"]
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms 'http://127.0.0.1:46624/clientapi/settings/max_file_size_kb'
+< HTTP/1.1 200 OK
+< 
+< 1024
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 
+
+> /home/ecal/.config/nvim/pack/kite/start/vim-plugin/lib/linux/kite-http --timeout 120ms - 'http://127.0.0.1:46624/clientapi/editor/event'
+< HTTP/1.1 200 OK
+< 
+< 

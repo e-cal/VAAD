@@ -5,6 +5,7 @@ import streamlit as st
 import sounddevice as sd
 from scipy.io.wavfile import write
 
+
 def module_from_file(module_name, file_path):
     spec = importlib.util.spec_from_file_location(module_name, file_path)
     module = importlib.util.module_from_spec(spec)
@@ -29,6 +30,7 @@ def get_alt_cap():
 def get_detector():
     return Detector.FaceDetector()
 
+
 if __name__ == "__main__":
     st.title("Test")
     alt = st.checkbox("Use alternate webcam")
@@ -47,7 +49,6 @@ if __name__ == "__main__":
         sd.wait()  # Wait until recording is finished
         write('output.wav', fs, myrecording)  # Save as WAV file
 
-
     detector = get_detector()
 
     run = st.checkbox("Run")
@@ -61,8 +62,8 @@ if __name__ == "__main__":
             session_id = 123456789
             language_code = "en-US"
             texts = ["What is QMIND"]
-            api.detect_intent_texts(project_id, session_id, texts, language_code)
-            print("here")
+            api.detect_intent_texts(
+                project_id, session_id, texts, language_code)
             frame = cv2.cvtColor(overlay, cv2.COLOR_BGR2RGB)
 
         # Stop the program if reached end of video

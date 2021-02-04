@@ -4,10 +4,12 @@ import streamlit as st
 import sounddevice as sd
 from scipy.io.wavfile import write
 
+#new imports
 from sys import byteorder
 from array import array
 from struct import pack
 
+#having trouble with pyaudio
 import pyaudio
 import wave
 
@@ -16,6 +18,7 @@ CHUNK_SIZE = 1024
 FORMAT = pyaudio.paInt16
 RATE = 44100
 
+#audio detection functions
 def is_silent(snd_data):
     "Returns 'True' if below the 'silent' threshold"
     return max(snd_data) < THRESHOLD
@@ -148,16 +151,12 @@ def get_detector():
 if __name__ == "__main__":
     st.title("Test")
     alt = st.checkbox("Use alternate webcam")
-    record = st.button("Use Audio Recorder")
 
     if alt:
         cap = get_alt_cap()
     else:
         cap = get_cap()
 
-    print("please speak a word into the microphone")
-    record_to_file('demo.wav')
-    print("done - result written to demo.wav")
 
     detector = get_detector()
 
@@ -165,6 +164,10 @@ if __name__ == "__main__":
     frameST = st.empty()
 
     while run:
+        #when webcam is running, run record to file function
+        print("please speak a word into the microphone")
+        record_to_file('demo.wav')
+        print("done - result written to demo.wav")
         ret, frame = cap.read()
         overlay = detector.overlay(frame)
         if not overlay is None:

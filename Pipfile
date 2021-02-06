@@ -13,6 +13,7 @@ opencv-python = "*"
 streamlit = "*"
 sounddevice = "*"
 scipy = "*"
+pyaudio = "*"
 
 [dev-packages]
 pylint = "*"

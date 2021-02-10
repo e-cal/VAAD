@@ -98,12 +98,17 @@ def record():
 
         silent = is_silent(snd_data)
 
+        #if the recording started and it is silent, add 1 ms to num_silent
         if silent and snd_started:
             num_silent += 1
+        #if the recording started and it is not silent again, set num_silent back to 0
+        elif not silent and snd_started:
+            num_silent = 0
+        #if it is not silent and the recording is not started, start the recording
         elif not silent and not snd_started:
             snd_started = True
-
-        if snd_started and num_silent > 30:
+        #if the recording started and if it is silent for more than 1000*5 ms (5 seconds)
+        if snd_started and num_silent > (1000*5):
             break
 
     sample_width = p.get_sample_size(FORMAT)

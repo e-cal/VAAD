@@ -1,14 +1,22 @@
 import importlib.util
+from sys import byteorder
+from array import array
+from struct import pack
+import wave
 import cv2
 import streamlit as st
+<<<<<<< HEAD
 
 #new imports
 from sys import byteorder
 from array import array
 from struct import pack
 
+=======
+import sounddevice as sd
+from scipy.io.wavfile import write
+>>>>>>> 9b42f0fe6d9fd1465f7ca3e859669f1d86e5e7ca
 import pyaudio
-import wave
 
 import time
 
@@ -17,10 +25,13 @@ CHUNK_SIZE = 1024
 FORMAT = pyaudio.paInt16
 RATE = 44100
 
-#audio detection functions
+# audio detection functions
+
+
 def is_silent(snd_data):
     "Returns 'True' if below the 'silent' threshold"
     return max(snd_data) < THRESHOLD
+
 
 def normalize(snd_data):
     "Average the volume out"
@@ -32,6 +43,7 @@ def normalize(snd_data):
         r.append(int(i*times))
     return r
 
+
 def trim(snd_data):
     "Trim the blank spots at the start and end"
     def _trim(snd_data):
@@ -39,7 +51,7 @@ def trim(snd_data):
         r = array('h')
 
         for i in snd_data:
-            if not snd_started and abs(i)>THRESHOLD:
+            if not snd_started and abs(i) > THRESHOLD:
                 snd_started = True
                 r.append(i)
 
@@ -56,6 +68,7 @@ def trim(snd_data):
     snd_data.reverse()
     return snd_data
 
+
 def add_silence(snd_data, seconds):
     "Add silence to the start and end of 'snd_data' of length 'seconds' (float)"
     silence = [0] * int(seconds * RATE)
@@ -64,20 +77,21 @@ def add_silence(snd_data, seconds):
     r.extend(silence)
     return r
 
+
 def record():
     """
-    Record a word or words from the microphone and 
+    Record a word or words from the microphone and
     return the data as an array of signed shorts.
 
-    Normalizes the audio, trims silence from the 
-    start and end, and pads with 0.5 seconds of 
-    blank sound to make sure VLC et al can play 
+    Normalizes the audio, trims silence from the
+    start and end, and pads with 0.5 seconds of
+    blank sound to make sure VLC et al can play
     it without getting chopped off.
     """
     p = pyaudio.PyAudio()
     stream = p.open(format=FORMAT, channels=1, rate=RATE,
-        input=True, output=True,
-        frames_per_buffer=CHUNK_SIZE)
+                    input=True, output=True,
+                    frames_per_buffer=CHUNK_SIZE)
 
     num_silent = 0
     snd_started = False
@@ -116,6 +130,7 @@ def record():
     r = add_silence(r, 0.5)
     return sample_width, r
 
+
 def record_to_file(path):
     "Records from the microphone and outputs the resulting data to 'path'"
     sample_width, data = record()
@@ -127,6 +142,7 @@ def record_to_file(path):
     wf.setframerate(RATE)
     wf.writeframes(data)
     wf.close()
+
 
 def module_from_file(module_name, file_path):
     spec = importlib.util.spec_from_file_location(module_name, file_path)
@@ -152,6 +168,7 @@ def get_alt_cap():
 def get_detector():
     return Detector.FaceDetector()
 
+
 if __name__ == "__main__":
     st.title("Test")
     alt = st.checkbox("Use alternate webcam")
@@ -161,21 +178,20 @@ if __name__ == "__main__":
     else:
         cap = get_cap()
 
-
     detector = get_detector()
 
     run = st.checkbox("Run")
     frameST = st.empty()
 
     while run:
-        #when webcam is running, run record to file function
-        print("please speak a word into the microphone")
-        record_to_file('demo.wav')
-        print("done - result written to demo.wav")
+        # when webcam is running, run record to file function
         ret, frame = cap.read()
         overlay = detector.overlay(frame)
         if not overlay is None:
             frame = cv2.cvtColor(overlay, cv2.COLOR_BGR2RGB)
+            print("please speak a word into the microphone")
+            record_to_file('demo.wav')
+            print("done - result written to demo.wav")
 
         # Stop the program if reached end of video
         if not ret:

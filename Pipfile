@@ -24,6 +24,9 @@ streamlit = "*"
 scipy = "*"
 google-cloud-dialogflow = "*"
 neovim = "*"
+jedi = "*"
+pylint = "*"
+autopep8 = "*"
 
 [dev-packages]
 pylint = "*"

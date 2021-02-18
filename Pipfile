@@ -27,6 +27,7 @@ neovim = "*"
 jedi = "*"
 pylint = "*"
 autopep8 = "*"
+google-api-python-client = "*"
 
 [dev-packages]
 pylint = "*"

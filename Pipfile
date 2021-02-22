@@ -28,6 +28,7 @@ jedi = "*"
 pylint = "*"
 autopep8 = "*"
 google-api-python-client = "*"
+flask = "*"
 
 [dev-packages]
 pylint = "*"

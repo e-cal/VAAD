@@ -61,7 +61,7 @@ def init_model():
 def train(model, criterion, optimizer, trainloader, testloader, epochs=10):
     steps = 0
     running_loss = 0
-    print_every = 10
+    print_every = 3
     train_losses, test_losses = [], []
     for epoch in range(epochs):
         for inputs, labels in trainloader:
@@ -88,14 +88,21 @@ def train(model, criterion, optimizer, trainloader, testloader, epochs=10):
                         top_p, top_class = ps.topk(1, dim=1)
                         equals = top_class == labels.view(*top_class.shape)
                         accuracy += torch.mean(equals.type(torch.FloatTensor)).item()
-                train_losses.append(running_loss/len(trainloader))
-                test_losses.append(test_loss/len(testloader))
+                train_losses.append(running_loss / len(trainloader))
+                test_losses.append(test_loss / len(testloader))
                 print(f"Epoch {epoch+1}/{epochs}: "
                       f"\n\tTrain loss: {running_loss/print_every:.3f}"
                       f"\n\tTest loss: {test_loss/len(testloader):.3f}"
                       f"\n\tTest accuracy: {accuracy/len(testloader):.3f}")
                 running_loss = 0
                 model.train()
+    plt.figure()
+    plt.plot(train_losses, label="Training Loss")
+    plt.plot(test_losses, label="Testing Loss")
+    plt.xlabel("Epochs")
+    plt.ylabel("Loss")
+    plt.legend()
+    plt.show()
     torch.save(model, 'attention_model.pth')
 
 

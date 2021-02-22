@@ -1,2 +1,4 @@
 *.pth
 data/
+*.wav
+*.mp3

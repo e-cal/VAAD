@@ -13,10 +13,12 @@ DATA_DIR = "data/"
 
 
 class AttentionClassifier():
-    def __init__(self, cam=None):
+    # pylint: disable=no-member
+    def __init__(self, model_path='attention_model.pth', cam=None):
         self.device = torch.device(
             "cuda" if torch.cuda.is_available() else "cpu")
-        self.model = torch.load('attention_model.pth')
+        self.model = torch.load(model_path)
+
         self.model.eval()
         self.transforms = transforms.Compose([transforms.ToPILImage(),
                                               transforms.Resize(224),
@@ -31,7 +33,7 @@ class AttentionClassifier():
         self.cam = cv2.VideoCapture(0)
 
     def overlay(self, frame, classification):
-        cv2.putText(frame, classification, (100, 100),
+        cv2.putText(frame, classification, (250, 450),
                     cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2, cv2.LINE_AA)
 
     def classify(self, frame, labels):
@@ -50,7 +52,7 @@ class AttentionClassifier():
             return
         self.init_cam()
         while True:
-            ret, frame = self.cam.read()
+            _, frame = self.cam.read()
             pred = self.classify(frame, ['attentive', 'inattentive'])
             self.overlay(frame, pred)
             cv2.imshow('Attn Classifier', frame)

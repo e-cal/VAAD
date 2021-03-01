@@ -29,6 +29,8 @@ pylint = "*"
 autopep8 = "*"
 google-api-python-client = "*"
 flask = "*"
+pyaudio = "*"
+matplotlib = "*"
 
 [dev-packages]
 pylint = "*"

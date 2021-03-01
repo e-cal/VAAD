@@ -1,14 +1,12 @@
 import wave
 from google.cloud import dialogflow
 
-# link for integrating with API:
-# https://cloud.google.com/dialogflow/es/docs/quick/api
-
-# Still working on finishing this, mostly just copied and pasted
-# the code from the link and started working through it
+project_id = "vaad-302015"
+session_id = 1
+language_code = "en-US"
 
 
-def detect_intent_texts(project_id, session_id, texts, language_code):
+def detect_intent_texts(texts):
     """Returns the result of detect intent with texts as inputs.
 
     Using the same `session_id` between requests allows continuation
@@ -36,8 +34,7 @@ def detect_intent_texts(project_id, session_id, texts, language_code):
             response.query_result.fulfillment_text))
 
 
-def detect_intent_audio(project_id, session_id, audio_file_path,
-                        language_code):
+def detect_intent_audio(audio_file_path):
     """Returns the result of detect intent with an audio file as input.
 
     Using the same `session_id` between requests allows continuation
@@ -79,8 +76,7 @@ def detect_intent_audio(project_id, session_id, audio_file_path,
         f.write(response.output_audio)
 
 
-def detect_intent_stream(project_id, session_id, audio_file_path,
-                         language_code):
+def detect_intent_stream(audio_file_path):
     """Returns the result of detect intent with streaming audio as input.
 
     Using the same `session_id` between requests allows continuation
@@ -110,8 +106,7 @@ def detect_intent_stream(project_id, session_id, audio_file_path,
                 if not chunk:
                     break
                 # The later requests contains audio data.
-                yield dialogflow.StreamingDetectIntentRequest(
-                    input_audio=chunk)
+                yield dialogflow.StreamingDetectIntentRequest(input_audio=chunk)
 
     audio_config = dialogflow.InputAudioConfig(
         audio_encoding=audio_encoding, language_code=language_code,
@@ -138,16 +133,6 @@ def detect_intent_stream(project_id, session_id, audio_file_path,
 
 
 if __name__ == "__main__":
-    # These should all be the same
-    project_id = "vaad-302015"
-    # Session ID can be whatever and it's stored for like 20 min to keep a record
-    # But we can also change this if needed but this one should work!
-    session_id = 123456789
-    language_code = "en-US"
-    # texts is the input, so I think it can be either a string, text input or audio
-    # This should be the only variable that changes I think
     texts = ["What is QMIND"]
-    # detect_intent_texts(project_id, session_id, texts, language_code)
-
     audio_file = "query.wav"
-    detect_intent_audio(project_id, session_id, audio_file, language_code)
+    detect_intent_audio(audio_file)

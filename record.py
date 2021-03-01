@@ -7,7 +7,7 @@ import pyaudio
 from scipy.io.wavfile import write
 
 
-THRESHOLD = 500
+THRESHOLD = 1000
 CHUNK_SIZE = 1024
 FORMAT = pyaudio.paInt16
 RATE = 44100
@@ -73,7 +73,6 @@ def record():
     blank sound to make sure VLC et al can play
     it without getting chopped off.
     """
-    print("new audio device")
     p = pyaudio.PyAudio()
     stream = p.open(format=FORMAT, channels=1, rate=RATE,
                     input=True, output=True,

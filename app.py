@@ -1,6 +1,5 @@
 # pylint: disable=no-member
 import time
-import asyncio
 import importlib.util
 import sys
 import threading
@@ -9,7 +8,7 @@ import streamlit as st
 import cv2
 from record import record_to_file
 import api
-import assistant
+import Assistant as assistant
 from Status import Status
 from model.detector import FaceDetector  # pylint: disable=wrong-import-position
 from model.classifier import AttentionClassifier  # pylint: disable=wrong-import-position
@@ -50,12 +49,7 @@ def run_record(status):
     status.stop_recording()
 
 
-async def get_response():
-    res = await assistant.detect_intent_audio("query.wav")
-    return res
-
-
-async def main():
+def main():
     st.title("VAAD")
 
     cap = get_cap()
@@ -64,21 +58,23 @@ async def main():
     status = get_status()
 
     run = st.checkbox("Run")
+    show_cam = st.checkbox("Show camera feed", value=True)
     listen_stat = st.empty()
-    res_container = st.empty()
-    frameST = st.empty()
+    res_audio_container = st.empty()
+    res_text_container = st.empty()
+    cam_container = st.empty()
     overlay = None
+    # TODO fix responses disappearing when disabling run
 
     frame_count = 0
     while True:
         ret, frame = cap.read()
+        frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         if status.audio:
-            res = await get_response()
-
-            # with open("query.wav", 'rb') as query:
-            #     audio = query.read()
-            #     res_container.audio(audio, format='audio/wav')
-            # status.audio = False
+            res_audio, res_text = assistant.detect_intent_audio("query.wav")
+            res_audio_container.audio(res_audio, format='audio/mp3')
+            res_text_container.text(res_text)
+            status.audio = False
 
         if run:
             frame_count += 1
@@ -105,15 +101,18 @@ async def main():
                         record_thread.start()
                 classifier.overlay(overlay, label)
                 # overlay facebox
-                frame = cv2.cvtColor(
-                    overlay, cv2.COLOR_BGR2RGB)
+                frame = overlay
 
         if not ret:
             print("Something went wrong, cam died.")
             cap.release()
             break
 
-        frameST.image(frame, channels="RGB")
+        if show_cam:
+            cam_container.image(frame, channels="RGB")
+        else:
+            cam_container.image("transparent.png", channels="RGB")
+
 
 if __name__ == "__main__":
     main()

@@ -1,8 +1,11 @@
+import os
 import wave
 from google.cloud import dialogflow
+from datetime import datetime
 
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'key.json'
 project_id = "vaad-302015"
-session_id = 1
+session_id = datetime.now().timetuple().tm_yday
 language_code = "en-US"
 
 
@@ -71,9 +74,7 @@ def detect_intent_audio(audio_file_path):
         response.query_result.intent_detection_confidence))
     print('Fulfillment text: {}\n'.format(
         response.query_result.fulfillment_text))
-    # print(response)
-    with open('response.mp3', 'wb') as f:
-        f.write(response.output_audio)
+    return response.output_audio, response.query_result.fulfillment_text
 
 
 def detect_intent_stream(audio_file_path):

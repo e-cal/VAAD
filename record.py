@@ -98,6 +98,8 @@ def record():
 
         if snd_started and time.time() - last_sound > 2:
             break
+        else:
+            print(time.time() - last_sound)
 
     sample_width = p.get_sample_size(FORMAT)
     stream.stop_stream()

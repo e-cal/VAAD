@@ -7,7 +7,7 @@ import pyaudio
 from scipy.io.wavfile import write
 
 
-THRESHOLD = 1000
+THRESHOLD = 2000
 CHUNK_SIZE = 1024
 FORMAT = pyaudio.paInt16
 RATE = 44100
@@ -98,8 +98,6 @@ def record():
 
         if snd_started and time.time() - last_sound > 2:
             break
-        else:
-            print(time.time() - last_sound)
 
     sample_width = p.get_sample_size(FORMAT)
     stream.stop_stream()

@@ -6,6 +6,7 @@ class Status:
         self.recording = False
         self.ready = True
         self.audio = False
+        self.prev_res = None
 
     def start_recording(self):
         self.recording = True

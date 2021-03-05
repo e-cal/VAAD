@@ -1,6 +1,7 @@
+.venv
 *.pth
 data/
 *.wav
 *.mp3
 __pycache__
-vaad
+.pylintrc

@@ -1,5 +1,5 @@
 import time
-from utils.menu import *
+from menu import *
 import cv2
 from detector import FaceDetector
 

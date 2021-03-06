@@ -4,3 +4,4 @@ data/
 *.mp3
 __pycache__
 vaad
+key.json

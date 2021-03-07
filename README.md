@@ -1,6 +1,6 @@
 # Virtual Assistant Attention Detection
 This project enables a user to interact with a virtual assistant by simply
-speaking to it (no activation phrase required)!
+looking at the device and speaking to it. No more unnatural activation phrases!
 The app is powered by an MTCNN face recognition model, and a CNN classifier
 trained to identify when the user is paying attention to the device. When the
 model determines that the user is paying attention, it begins listening and

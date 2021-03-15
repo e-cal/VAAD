@@ -7,6 +7,9 @@ model determines that the user is paying attention, it begins listening and
 sends the user's request to a custom Dialogflow agent. The response is provided
 as both audio from the assistant, and a plaintext transcript.
 
+This work was presented at the *Canadian Undergraduate Conference on Artificial
+Intelligence* 2021. This work was done with *QMIND - Queen's AI Hub*.
+
 ## Running the project
 1. Install the dependencies from `requirements.txt`
 2. Unzip `model/model.zip`

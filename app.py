@@ -88,7 +88,7 @@ def main():
                 label = classifier.classify(
                     frame, ['attentive', 'inattentive'])
                 attentive = label == 'attentive'
-                if attentive:
+                if attentive or frame_count < 10:
                     attentive_time += 1
                     if status.ready and attentive_time > 5:
                         status.start_recording()

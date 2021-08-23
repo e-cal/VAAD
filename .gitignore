@@ -6,3 +6,5 @@ data/
 __pycache__
 vaad
 key.json
+*.bak
+full-data
